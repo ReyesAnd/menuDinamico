@@ -1,0 +1,119 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    background: linear-gradient(#d2f8ff, #badbe2, white, white, white, white);
+}
+
+body img{
+    border-radius: 10px;
+}
+center{
+    display: contents;
+}
+center h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: x-large;
+}
+center img{
+    height: 111px;
+}
+a{
+    color: transparent; 
+    padding-left: 20px;
+}
+ul{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    float: left;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+li a{
+    display: block;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+li:hover{
+    background-color: #0CD1F5;
+    border-radius: 25px;
+}
+li a:hover{
+    color: white;
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+hr{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.portada{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portada img{
+    border: 10px outset #078096;
+    border-radius: 5px;
+    width: 90%;
+}
+/* infomracion abajo */
+section{
+    background-color:#078096;
+    border-radius: 5px;
+    height: auto;
+}
+hr{
+    border: 2px solid black;
+}
+section h6{
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    color: azure;
+    margin-top: 0;
+}
+section h1{
+    padding-top: 10px;
+}
+section h1, h4{
+    text-align: center;
+    color: azure;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+/* En tu archivo CSS */
+.inicio {
+    color: black;
+    font-weight: bold;
+    background-color: #0CD1F5;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
